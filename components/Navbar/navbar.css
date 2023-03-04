@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1DB954;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: rgba(20, 3, 20, 0.7);
+
+  }
+
+  body {
+    background-image: linear-gradient(to right, rgba(255, 0, 255, 0.5), rgba(146, 4, 182, 0.5)), url("../../images/capa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+    }
+
+  .navbar__logo {
+    height: 3rem;
+    cursor: default;
+
+  }
+  
+  .navbar__links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__link {
+    margin: 10px;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  
+  .navbar__link:hover {
+    background-color: #2CA760;
+  }
